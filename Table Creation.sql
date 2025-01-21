@@ -12,6 +12,6 @@ CREATE TABLE 2024_divyy_tripdata(
     end_lat FLOAT,
     end_lng FLOAT,
     member_casual VARCHAR(50),
-    ride_length TIME,
+    ride_length VARCHAR(30),
     day_of_week INT
 );
